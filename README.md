@@ -3,7 +3,7 @@
 This assignment was completed using Microsoft SQL Server 2022 and Microsoft SQL Server Management Studio 2022.
 
 5 Scripts are present in the script folder:
-- Creation script - this script creates all the tables and functions with necessary constraints
+- Creation script (provided) - this script creates all the tables and functions with necessary constraints
 
   
 - Migration procedure - this procedure inserts data from the `XXBCM_ORDER_MGT` table to created tables
