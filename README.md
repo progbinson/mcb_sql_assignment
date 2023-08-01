@@ -3,13 +3,13 @@
 This assignment was completed using Microsoft SQL Server 2022 and Microsoft SQL Server Management Studio 2022.
 
 5 Scripts are present in the script folder:
-- Creation script (provided) - this script creates all the tables and functions with necessary constraints
+- [Creation script](Scripts/1.%20Creation%20script.sql) (provided) - this script creates all the tables and functions with necessary constraints
 
   
-- Migration procedure - this procedure inserts data from the `XXBCM_ORDER_MGT` table to created tables
+- [Migration procedure](Scripts/2.%20migration%20procedure.sql) - this procedure inserts data from the `XXBCM_ORDER_MGT` table to created tables
 
 
-- Order summary procedure - procedure to display a summary of orders with their corresponding list of distinct invoices and their total amount
+- [Order summary procedure](Scripts/3.%20order%20summary%20procedure.sql) - procedure to display a summary of orders with their corresponding list of distinct invoices and their total amount
 
   Result:
 
@@ -30,7 +30,7 @@ This assignment was completed using Microsoft SQL Server 2022 and Microsoft SQL 
 | 13           | AUG-2022     | Mottoway Corp.         | 5,819,625.00       | Closed       | INV_PO013         | 5,819,625.00         | OK           |
 | 14           | SEP-2022     | Digisay Co. Ltd.       | 400,120.00         | Open         | INV_PO014         | 295,520.00           | To follow up |
 
-- Second total procedure - details for the SECOND (2nd) highest Order Total Amount from the list
+- [Second total procedure](Scripts/4.%20second%20total%20procedure.sql) - details for the SECOND (2nd) highest Order Total Amount from the list
 
 Result:
 
@@ -38,7 +38,7 @@ Result:
 |---|---|---|---|---|---|
 | 2 | January 10, 2022 | MOTTOWAY CORP. | 750,000.00 | Open | INV_PO002.1 \| INV_PO002.2 \| INV_PO002.3 |
 
-- List suppliers procedure - all suppliers with their respective number of orders and total amount ordered from them between the period of 01 January 2022 and 31 August 2022
+- [List suppliers procedure](Scripts/5.%20list%20suppliers%20procedure.sql) - all suppliers with their respective number of orders and total amount ordered from them between the period of 01 January 2022 and 31 August 2022
 
 Result:
 | SUPPLIER_NAME | SUPPLIER_CONTACT_NAME | SUPPLIER_CONTACT_NUMBER1 | SUPPLIER_CONTACT_NUMBER2 | TOTAL_ORDERS | ORDER_TOTAL_AMOUNT |
